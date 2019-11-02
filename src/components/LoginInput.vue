@@ -70,6 +70,7 @@ export default {
 
 <style scoped lang="scss">
 @import '../scss/variables/colors';
+@import '../scss/variables/fontSizes';
 
 .section-input{
   display: flex;
@@ -79,7 +80,7 @@ export default {
   label{
     display: flex;
     font-family: 'Roboto', sans-serif;
-    size: 16px;
+    size: $ContentText;
     padding-bottom: 5px;
     padding-top: 5px;
     color: $Black;
@@ -94,10 +95,10 @@ export default {
 }
 
 .button{
-  width: 252px;
-  height: 32px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: $ContentText;
+  height: 32px;
+  width: 252px;
 }
 
 .button-singUp{
@@ -121,8 +122,8 @@ export default {
   &:before{
     background-color: $Silver-Chalice;
     content: '';
-    position: absolute;
     height: 2px;
+    position: absolute;
     width: 80%;
   }
 }
