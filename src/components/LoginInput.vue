@@ -7,7 +7,6 @@
     .section-buttons
       input.button.button-singUp(type="submit" value="Sing Up" @click.prevent="fakeSubmit")
       input.button.button-login(type="submit" value="Login")
-      p {{ Object.keys(form) }}
 </template>
 
 <script>

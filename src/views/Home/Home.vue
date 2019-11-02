@@ -1,8 +1,7 @@
-<template>
-  <div class="content-home">
-    <img src="../../assets/LogoWolox-Original.png" class="img-login" />
+<template lang="pug">
+  .content-home
+    img.img-login(src="../../assets/LogoWolox-Original.png")
     <LoginInput/>
-  </div>
 </template>
 
 <script>
@@ -21,7 +20,7 @@ export default {
 .content-home {
   background-color: $Wild-Sand;
   border-top: 8px solid $Cerulean;
-  height: 834px;
+  height: 634px;
   width: 300px;
 }
 
